@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>flower.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>flower.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.SearchFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowSingleFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.ShowSingleFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.UpdateFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.DeleteFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.AddFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchBouquetServlet</servlet-name>
+    <servlet-class>flower.servlet.SearchBouquetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateBouquetServlet</servlet-name>
+    <servlet-class>flower.servlet.UpdateBouquetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowSingleBouquetServlet</servlet-name>
+    <servlet-class>flower.servlet.ShowSingleBouquetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBouquetServlet</servlet-name>
+    <servlet-class>flower.servlet.DeleteBouquetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddBouquetServlet</servlet-name>
+    <servlet-class>flower.servlet.AddBouquetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HomePageServlet</servlet-name>
+    <servlet-class>flower.servlet.HomePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowFlowerDetailServlet</servlet-name>
+    <servlet-class>flower.servlet.ShowFlowerDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReserveFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.ReserveFlowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>flower.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowReportServlet</servlet-name>
+    <servlet-class>flower.servlet.ShowReportServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTransactionServlet</servlet-name>
+    <servlet-class>flower.servlet.UpdateTransactionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchTransactionServlet</servlet-name>
+    <servlet-class>flower.servlet.SearchTransactionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowSingleTransactionServlet</servlet-name>
+    <servlet-class>flower.servlet.ShowSingleTransactionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerTransactionServlet</servlet-name>
+    <servlet-class>flower.servlet.CustomerTransactionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RateFlowerServlet</servlet-name>
+    <servlet-class>flower.servlet.RateFlowerServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchFlowerServlet</servlet-name>
+    <url-pattern>/SearchFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowSingleFlowerServlet</servlet-name>
+    <url-pattern>/ShowSingleFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateFlowerServlet</servlet-name>
+    <url-pattern>/UpdateFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFlowerServlet</servlet-name>
+    <url-pattern>/DeleteFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFlowerServlet</servlet-name>
+    <url-pattern>/AddFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBouquetServlet</servlet-name>
+    <url-pattern>/SearchBouquetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBouquetServlet</servlet-name>
+    <url-pattern>/UpdateBouquetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowSingleBouquetServlet</servlet-name>
+    <url-pattern>/ShowSingleBouquetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBouquetServlet</servlet-name>
+    <url-pattern>/DeleteBouquetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBouquetServlet</servlet-name>
+    <url-pattern>/AddBouquetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomePageServlet</servlet-name>
+    <url-pattern>/HomePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowFlowerDetailServlet</servlet-name>
+    <url-pattern>/ShowFlowerDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReserveFlowerServlet</servlet-name>
+    <url-pattern>/ReserveFlowerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowReportServlet</servlet-name>
+    <url-pattern>/ShowReportServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTransactionServlet</servlet-name>
+    <url-pattern>/UpdateTransactionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchTransactionServlet</servlet-name>
+    <url-pattern>/SearchTransactionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowSingleTransactionServlet</servlet-name>
+    <url-pattern>/ShowSingleTransactionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerTransactionServlet</servlet-name>
+    <url-pattern>/CustomerTransactionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RateFlowerServlet</servlet-name>
+    <url-pattern>/RateFlowerServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
